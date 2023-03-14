@@ -1,5 +1,5 @@
 const fibonacci = function(fibNumber) {
-  parsedFib = parseInt(fibNumber);
+  parsedFib = parseInt(fibNumber, 10);
   let fibArray = [1, 1];
   if ((typeof parsedFib) !== "number") {
     return "OOOPS";
