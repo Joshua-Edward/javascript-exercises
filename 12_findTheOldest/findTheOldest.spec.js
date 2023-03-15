@@ -43,6 +43,11 @@ describe('findTheOldest', () => {
   test('finds the oldest person if the OLDEST is still living', () => {
     const people = [
       {
+        name: "Rayyy",
+        yearOfBirth: 1965,
+        yearOfDeath: 2011,
+      },
+      {
         name: "Carly",
         yearOfBirth: 1066,
       },
@@ -54,6 +59,16 @@ describe('findTheOldest', () => {
       {
         name: "Jane",
         yearOfBirth: 1912,
+        yearOfDeath: 1941,
+      },
+      {
+        name: "Janee",
+        yearOfBirth: 1913,
+        yearOfDeath: 1941,
+      },
+      {
+        name: "Janeee",
+        yearOfBirth: 1914,
         yearOfDeath: 1941,
       },
     ]
